@@ -1,2 +1,2 @@
-# aks
+# AKS
 Azure Kubernetes Service
