@@ -31,6 +31,9 @@ main() {
 }
 
 list() {
+
+    echo "MS Devengers rocks !"
+
     account="$(az account show)"
     subscriptionName="$(echo "${account}" | jq -r .name)"
     subscriptionId="$(echo "${account}" | jq -r .id)"
